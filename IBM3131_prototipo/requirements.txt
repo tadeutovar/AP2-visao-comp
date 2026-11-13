@@ -1,0 +1,6 @@
+mediapipe>=0.10.14
+opencv-contrib-python>=4.8   # mesmo pacote que o MediaPipe usa (evita duas cópias do cv2)
+numpy>=1.24
+matplotlib>=3.7
+pyserial>=3.5   # só necessário com o Arduino (--serial)
+pytest>=7       # só para rodar os testes
